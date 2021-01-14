@@ -19,33 +19,29 @@
    ![view on browser](https://github.com/Precillieo/SCA-mp-C2-Assignments/blob/master/Cloud%20School.jpg?raw=true)
 
 7. Make Some Changes by editing the HTML file
-8. Get the former Docker Container removed
-   ```
-   docker rm -f container-id
-   ```
-9. Build the updated Docker image
+8. Build the updated Docker image
    ```
    docker build -t website-image:updated .
    ```
-10. Run the updated Docker Image
+9. Run the updated Docker Image
     ```
     docker run -d -p 800:80 website-image:updated .
     ```
-11. When opened in browser using ```localhost:800```, the updated one get displayed
+10. When opened in browser using ```localhost:800```, the updated one get displayed
 
     ![view on browser](https://github.com/Precillieo/SCA-mp-C2-Assignments/blob/master/update.jpg?raw=true)
-12. Login to Dockerhub from terminal
+11. Login to Dockerhub from terminal
     ```
     docker login
     ```
-13. Tag image again before pushing
+12. Tag image again before pushing
     ```
     docker tag website-image:updated precillieo/websiteimage:updated
     ```
-14. Push to Dockerhub
+13. Push to Dockerhub
     ```
     docker push precillieo/website-image:updated
     ```
-15. **Note**: ```precillieo``` is my username on Dockerhub, ```website-image:updated``` are the image name and the tag respectively.
+14. **Note**: ```precillieo``` is my username on Dockerhub, ```website-image:updated``` are the image name and the tag respectively.
 
-**Finally, Click [here](https://hub.docker.com/r/precillieo/website-image) to view the docker hub repository and the two tags made**
+15. **Finally, Click [here](https://hub.docker.com/r/precillieo/website-image) to view the docker hub repository and the two tags made**

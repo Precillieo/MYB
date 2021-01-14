@@ -48,4 +48,4 @@
     ```
 15. **Note**: ```precillieo``` is my username on Dockerhub, ```website-image:updated``` are the image name and the tag respectively.
 
-** Click [here](https://hub.docker.com/r/precillieo/website-image) to view the docker hub repository and the two tags made **
+**Click [here](https://hub.docker.com/r/precillieo/website-image) to view the docker hub repository and the two tags made**

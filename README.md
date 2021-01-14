@@ -8,7 +8,7 @@
    ```
 4. To run the Dockerfile
    ```
-   docker run -d -p 80:80 website-image:v1 .
+   docker run -d -p 80:80 website-image:v1
    ```
 5. To ascertain if it has been run and built
    ```
@@ -25,7 +25,7 @@
    ```
 9. Run the updated Docker Image
     ```
-    docker run -d -p 800:80 website-image:updated .
+    docker run -d -p 800:80 website-image:updated
     ```
 10. When opened in browser using ```localhost:800```, the updated one get displayed
 

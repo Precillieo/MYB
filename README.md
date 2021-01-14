@@ -14,34 +14,38 @@
    ```
    docker ps -a
    ```
-6. When opened in browser using ```locahost:80```, this get displayed
+6. Print the Output of the Application 
+   ```
+   docker logs <container id>
+   ```
+7. When opened in browser using ```locahost:80```, this get displayed
 
    ![view on browser](https://github.com/Precillieo/SCA-mp-C2-Assignments/blob/master/Cloud%20School.jpg?raw=true)
 
-7. Make Some Changes by editing the HTML file
-8. Build the updated Docker image
+8. Make Some Changes by editing the HTML file
+9. Build the updated Docker image
    ```
    docker build -t website-image:updated .
    ```
-9. Run the updated Docker Image
+10. Run the updated Docker Image
     ```
     docker run -d -p 800:80 website-image:updated
     ```
-10. When opened in browser using ```localhost:800```, the updated one get displayed
+11. When opened in browser using ```localhost:800```, the updated one get displayed
 
     ![view on browser](https://github.com/Precillieo/SCA-mp-C2-Assignments/blob/master/update.jpg?raw=true)
-11. Login to Dockerhub from terminal
+12. Login to Dockerhub from terminal
     ```
     docker login
     ```
-12. Tag image again before pushing
+13. Tag image again before pushing
     ```
     docker tag website-image:updated precillieo/websiteimage:updated
     ```
-13. Push to Dockerhub
+14. Push to Dockerhub
     ```
     docker push precillieo/website-image:updated
     ```
-14. **Note**: ```precillieo``` is my username on Dockerhub, ```website-image:updated``` are the image name and the tag respectively.
+15. **Note**: ```precillieo``` is my username on Dockerhub, ```website-image:updated``` are the image name and the tag respectively.
 
-15. **Finally, Click [here](https://hub.docker.com/r/precillieo/website-image) to view the docker hub repository and the two tags made**
+16. **Finally, Click [here](https://hub.docker.com/r/precillieo/website-image) to view the docker hub repository and the two tags made**

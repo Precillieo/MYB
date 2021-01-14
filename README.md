@@ -46,6 +46,6 @@
     ```
     docker push precillieo/website-image:updated
     ```
-15. **Note**: ```precillieo``` is my username on Dockerhub, ```website-image:updated``` are the image name and the tag respectively.
+15. **Note**: ```precillieo``` is my username on Dockerhub, ```website-image, v1, updated``` are the image name and the tag respectively.
 
 16. **Finally, Click [here](https://hub.docker.com/r/precillieo/website-image) to view the docker hub repository and the two tags made**

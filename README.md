@@ -1,7 +1,7 @@
 # SCA Cloud School Assessment Process
 
 1. Install Docker for Desktop, Install WSL 2 Backend
-2. Create a Dockerfile with a base model, create an HTML file with the display content. Visual Studio Code as the Code Editor.
+2. Create a Dockerfile with a base model, create an HTML file with the display content. Visual Studio Code was used as the Code Editor.
 3. Build the Docker Image.
    ```
    docker build -t website-image:v1 .
